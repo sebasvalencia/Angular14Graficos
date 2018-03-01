@@ -9,11 +9,13 @@ import { LineaComponent } from './components/linea/linea.component';
 
 // Graficos
 import { ChartsModule } from 'ng2-charts/ng2-charts';
+import { BarraComponent } from './components/barra/barra.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LineaComponent
+    LineaComponent,
+    BarraComponent
   ],
   imports: [
     BrowserModule,

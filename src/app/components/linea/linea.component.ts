@@ -46,9 +46,9 @@ export class LineaComponent {
     }
   ];
 
-  public lineChartLegend: boolean = true;
+  public lineChartLegend = true;
 
-  public lineChartType: string = 'line';
+  public lineChartType = 'line';
 
   public randomize(): void {
     const _lineChartData: Array<any> = new Array(this.lineChartData.length);
